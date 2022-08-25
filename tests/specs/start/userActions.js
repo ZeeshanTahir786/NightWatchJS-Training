@@ -1,7 +1,7 @@
 module.exports = {
   "User Actions & Prompts": function (client) {
     client
-      .url("https://www.ultimateqa.com/filling-out-forms")
+      .url("https://www.ultimateqa.com/filling-out-forms/")
 
       .setValue(
         "#et_pb_contact_message_0",
@@ -58,7 +58,11 @@ module.exports = {
         console.log(result);
         client.switchWindow(newWindow);
       })
+      .pause(2000)
       .assert.visible("button[name='et_builder_submit_button']:nth-child(1)")
       .verify.visible("button[name='et_builder_submit_button']:nth-child(1)");
+  },
+  "Verify url": (client) => {
+    client.verify.urlEquals("https://ultimateqa.com/filling-out-forms/");
   },
 };
