@@ -1,0 +1,164 @@
+1660637084098	geckodriver	INFO	Listening on 127.0.0.1:4444
+1660637084112	webdriver::server	DEBUG	-> GET /status 
+1660637084113	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1660637084123	webdriver::server	DEBUG	-> POST /session {"desiredCapabilities":{"browserName":"firefox","name":"To-Do List End-to-End Test"},"capabilities":{"alwaysMatch":{"browserName":"firefox"}}}
+1660637084141	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilexvz9yt"
+1660637084141	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:63619
+1660637084142	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084244	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084348	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084448	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084549	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084651	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084755	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660637084857	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+2022-08-16 13:04:44.858 plugin-container[7987:252375] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-16 13:04:44.858 plugin-container[7987:252375] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1660637084876	Marionette	INFO	Marionette enabled
+1660637084877	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1660637084877	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1660637084878	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1660637084879	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1660637084919	Marionette	TRACE	Received observer notification final-ui-startup
+1660637084921	Marionette	INFO	Listening on port 63619
+1660637084921	Marionette	DEBUG	Marionette is listening
+2022-08-16 13:04:45.052 plugin-container[7987:252375] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-16 13:04:45.053 plugin-container[7987:252375] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-16 13:04:45.053 plugin-container[7987:252409] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-16 13:04:45.053 plugin-container[7987:252409] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1660637085126	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:63628
+1660637085132	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:63619.
+1660637085152	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"browserName":"firefox"}]
+1660637085155	Marionette	DEBUG	Waiting for initial application window
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilexvz9yt/search.json.mozlz4", (void 0)))
+1660637086772	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1660637086776	RemoteAgent	TRACE	[22] Document already finished loading: about:blank
+1660637086782	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"2451f05f-8a2c-4e13-8470-7a61e0fd5222","capabilities":{"browserName":"firefox","browserVersion":"103.0 ... ownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1660637086789	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"2451f05f-8a2c-4e13-8470-7a61e0fd5222","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"103.0","moz:accessibilityChecks":false,"moz:buildID":"20220718155818","moz:geckodriverVersion":"0.30.0","moz:headless":false,"moz:platformVersion":"21.5.0","moz:processID":7980,"moz:profile":"/var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilexvz9yt","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1660637086813	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/url {"url":"https://todo-vue3-vite.netlify.app/"}
+1660637086814	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://todo-vue3-vite.netlify.app/"}]
+1660637086827	Marionette	TRACE	[22] Received event beforeunload for about:blank
+1660637088911	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 37
+1660637088917	Marionette	TRACE	[37] Received event beforeunload for about:blank
+1660637088919	Marionette	TRACE	[37] Received event pagehide for about:blank
+1660637090019	Marionette	TRACE	[37] Received event DOMContentLoaded for https://todo-vue3-vite.netlify.app/
+1660637090020	Marionette	TRACE	[37] Received event pageshow for https://todo-vue3-vite.netlify.app/
+1660637090020	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1660637090022	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1660637090028	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/elements {"using":"css selector","value":"#new-todo-input"}
+1660637090029	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"#new-todo-input"}]
+1660637090031	Marionette	TRACE	[37] MarionetteCommands actor created for window id 6442450945
+1660637090037	Marionette	DEBUG	0 <- [1,3,null,[{"element-6066-11e4-a52e-4f735466cecf":"47d3d22f-e05a-461a-8df0-feeb71037e49"}]]
+1660637090039	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"47d3d22f-e05a-461a-8df0-feeb71037e49"}]}
+1660637090043	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/element/47d3d22f-e05a-461a-8df0-feeb71037e49/value {"text":"what is nightwatch?","value":["w","h","a","t"," ","i","s"," ","n","i","g","h","t","w","a","t","c","h","?"]}
+1660637090043	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementSendKeys",{"id":"47d3d22f-e05a-461a-8df0-feeb71037e49","text":"what is nightwatch?","value":["w","h","a","t"," ","i","s"," ","n","i","g","h","t","w","a","t","c","h","?"]}]
+1660637090067	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1660637090067	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1660637090070	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/elements {"using":"css selector","value":"form button[type=\"submit\"]"}
+1660637090070	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElements",{"using":"css selector","value":"form button[type=\"submit\"]"}]
+1660637090071	Marionette	DEBUG	0 <- [1,5,null,[{"element-6066-11e4-a52e-4f735466cecf":"cd3d9157-9a59-467a-bb67-e33a8283cc89"}]]
+1660637090072	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"cd3d9157-9a59-467a-bb67-e33a8283cc89"}]}
+1660637090074	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/element/cd3d9157-9a59-467a-bb67-e33a8283cc89/click {}
+1660637090074	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementClick",{"id":"cd3d9157-9a59-467a-bb67-e33a8283cc89"}]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://todo-vue3-vite.netlify.app"
+1660637090087	Marionette	TRACE	Received DOM event click for [object HTMLButtonElement]
+1660637090296	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1660637090296	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1660637090297	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1660637090308	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/elements {"using":"css selector","value":"#todo-list ul li"}
+1660637090309	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"#todo-list ul li"}]
+1660637090311	Marionette	DEBUG	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"dde03d10-1530-49e8-98cd-322a78f95376"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"168b3940-122b-4be5-a9f4-5e53d0251bbc"},{"element-6066-11e4-a52e-4f735466cecf":"556d4fb0-8de5-44cd-be48-4aa0343119d7"}]]
+1660637090311	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"dde03d10-1530-49e8-98cd-322a78f95376"},{"element-6066-11e4-a52e-4f735466cecf":"dc11b436-c011-47a2-bc8d-00901d6b7830"},{"element-6066-11e4-a52e-4f735466cecf":"f948fbe6-4fb6-42c2-b47f-a7d06d93193c"},{"element-6066-11e4-a52e-4f735466cecf":"168b3940-122b-4be5-a9f4-5e53d0251bbc"},{"element-6066-11e4-a52e-4f735466cecf":"556d4fb0-8de5-44cd-be48-4aa0343119d7"}]}
+1660637090316	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/elements {"using":"css selector","value":"#todo-list ul li"}
+1660637090317	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"#todo-list ul li"}]
+1660637090318	Marionette	DEBUG	0 <- [1,8,null,[{"element-6066-11e4-a52e-4f735466cecf":"dde03d10-1530-49e8-98cd-322a78f95376"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"168b3940-122b-4be5-a9f4-5e53d0251bbc"},{"element-6066-11e4-a52e-4f735466cecf":"556d4fb0-8de5-44cd-be48-4aa0343119d7"}]]
+1660637090319	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"dde03d10-1530-49e8-98cd-322a78f95376"},{"element-6066-11e4-a52e-4f735466cecf":"dc11b436-c011-47a2-bc8d-00901d6b7830"},{"element-6066-11e4-a52e-4f735466cecf":"f948fbe6-4fb6-42c2-b47f-a7d06d93193c"},{"element-6066-11e4-a52e-4f735466cecf":"168b3940-122b-4be5-a9f4-5e53d0251bbc"},{"element-6066-11e4-a52e-4f735466cecf":"556d4fb0-8de5-44cd-be48-4aa0343119d7"}]}
+1660637090322	webdriver::server	DEBUG	-> GET /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/element/556d4fb0-8de5-44cd-be48-4aa0343119d7/text 
+1660637090323	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetElementText",{"id":"556d4fb0-8de5-44cd-be48-4aa0343119d7"}]
+1660637090344	Marionette	DEBUG	0 <- [1,9,null,{"value":"new taskwhat is nightwatch?\nEdit\nNew Taskwhat Is Nightwatch?\nDelete\nNew Taskwhat Is Nightwatch?"}]
+1660637090344	webdriver::server	DEBUG	<- 200 OK {"value":"new taskwhat is nightwatch?\nEdit\nNew Taskwhat Is Nightwatch?\nDelete\nNew Taskwhat Is Nightwatch?"}
+1660637090348	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/element/556d4fb0-8de5-44cd-be48-4aa0343119d7/element {"using":"css selector","value":"input[type=\"checkbox\"]"}
+1660637090348	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"element":"556d4fb0-8de5-44cd-be48-4aa0343119d7","using":"css selector","value":"input[type=\"checkbox\"]"}]
+1660637090350	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"83b754c7-a373-488b-9e1d-e9d7d803788f"}}]
+1660637090350	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"83b754c7-a373-488b-9e1d-e9d7d803788f"}}
+1660637090354	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/element/83b754c7-a373-488b-9e1d-e9d7d803788f/click {}
+1660637090354	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"83b754c7-a373-488b-9e1d-e9d7d803788f"}]
+1660637090360	Marionette	TRACE	Received DOM event click for [object HTMLInputElement]
+1660637090565	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1660637090565	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1660637090566	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1660637090573	webdriver::server	DEBUG	-> POST /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222/elements {"using":"css selector","value":"#todo-list ul li input:checked"}
+1660637090573	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"#todo-list ul li input:checked"}]
+1660637090575	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"76276346-44b6-4c34-9288-2e900a80b7fb"},{"element-6066-11e4-a52e-4f735466cecf":"ee919970-c899-4c2b-b96b-da0a2415aee1"},{"element-6066-11e4-a52e-4f735466cecf":"83b754c7-a373-488b-9e1d-e9d7d803788f"}]]
+1660637090575	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"76276346-44b6-4c34-9288-2e900a80b7fb"},{"element-6066-11e4-a52e-4f735466cecf":"ee919970-c899-4c2b-b96b-da0a2415aee1"},{"element-6066-11e4-a52e-4f735466cecf":"83b754c7-a373-488b-9e1d-e9d7d803788f"}]}
+1660637090587	webdriver::server	DEBUG	-> DELETE /session/2451f05f-8a2c-4e13-8470-7a61e0fd5222 
+1660637090588	Marionette	DEBUG	0 -> [0,13,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1660637090588	Marionette	INFO	Stopped listening on port 63619
+1660637090622	Marionette	TRACE	Received observer notification quit-application
+1660637090625	Marionette	TRACE	Received observer notification quit-application
+1660637090625	Marionette	DEBUG	Marionette stopped listening
+1660637090625	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1660637090625	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1660637090625	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1660637090625	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.search.update
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1660637090626	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1660637090627	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1660637090628	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1660637090628	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1660637090628	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1660637090628	RemoteAgent	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1660637090628	RemoteAgent	DEBUG	Resetting recommended pref dom.max_script_run_time
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1660637090629	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1660637090630	RemoteAgent	DEBUG	Resetting recommended pref signon.rememberSignons
+1660637090631	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1660637090631	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1660637090631	Marionette	DEBUG	0 <- [1,13,null,{"cause":"shutdown","forced":false}]
+1660637090660	webdriver::server	DEBUG	Teardown session
+1660637090681	Marionette	DEBUG	Closed connection 0
+1660637091172	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1660637091204	webdriver::server	DEBUG	<- 200 OK {"value":null}

@@ -1,0 +1,169 @@
+1660820727992	geckodriver	INFO	Listening on 127.0.0.1:4444
+1660820728009	webdriver::server	DEBUG	-> GET /status 
+1660820728011	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1660820728022	webdriver::server	DEBUG	-> POST /session {"desiredCapabilities":{"browserName":"firefox","name":"The Login Page"},"capabilities":{"alwaysMatch":{"browserName":"firefox"}}}
+1660820728037	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilexQmCyV"
+1660820728056	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:61271
+1660820728057	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728160	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728263	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728367	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728475	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728578	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728681	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728784	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728887	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820728989	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820729093	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820729155	Marionette	INFO	Marionette enabled
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1660820729156	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1660820729157	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1660820729158	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1660820729193	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1660820729214	Marionette	TRACE	Received observer notification final-ui-startup
+1660820729216	Marionette	INFO	Listening on port 61271
+1660820729216	Marionette	DEBUG	Marionette is listening
+2022-08-18 16:05:29.326 plugin-container[23966:736638] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-18 16:05:29.327 plugin-container[23966:736638] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-18 16:05:29.335 plugin-container[23966:736638] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-18 16:05:29.335 plugin-container[23966:736638] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-18 16:05:29.336 plugin-container[23966:736647] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-18 16:05:29.336 plugin-container[23966:736647] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1660820729425	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:61293
+1660820729434	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:61271.
+1660820729455	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"browserName":"firefox"}]
+1660820729457	Marionette	DEBUG	Waiting for initial application window
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilexQmCyV/search.json.mozlz4", (void 0)))
+1660820730931	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1660820730934	RemoteAgent	TRACE	[22] Document already finished loading: about:blank
+1660820730940	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e33b890f-1e98-44f2-a078-ddd19f9af058","capabilities":{"browserName":"firefox","browserVersion":"103.0 ... ownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1660820730943	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"e33b890f-1e98-44f2-a078-ddd19f9af058","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"103.0.2","moz:accessibilityChecks":false,"moz:buildID":"20220808125904","moz:geckodriverVersion":"0.30.0","moz:headless":false,"moz:platformVersion":"21.5.0","moz:processID":23960,"moz:profile":"/var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilexQmCyV","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1660820730961	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/url {"url":"http://localhost/<LOGIN-PAGE-URL>"}
+1660820730962	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://localhost/<LOGIN-PAGE-URL>"}]
+1660820730970	Marionette	TRACE	[22] Received event beforeunload for about:blank
+1660820730986	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 37
+1660820731007	Marionette	TRACE	[37] Received event beforeunload for about:blank
+1660820731012	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1660820731017	Marionette	TRACE	[37] Received event beforeunload for about:blank
+1660820731025	Marionette	TRACE	[37] Received event pagehide for about:blank
+1660820731165	Marionette	TRACE	[37] Received event DOMContentLoaded for about:neterror?e=connectionFailure&u=http%3A//localhost/%253CLOGIN-PAGE-URL%253E&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.
+1660820731165	Marionette	DEBUG	0 <- [1,2,{"error":"unknown error","message":"Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost/%253CLOG ... /EventEmitter.jsm:162:20\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:45:25\n"},null]
+1660820731170	webdriver::server	DEBUG	<- 500 Internal Server Error {"value":{"error":"unknown error","message":"Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost/%253CLOGIN-PAGE-URL%253E&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nUnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:515:5\ncheckReadyState@chrome://remote/content/marionette/navigate.js:67:24\nonNavigation@chrome://remote/content/marionette/navigate.js:335:39\nemit@resource://gre/modules/EventEmitter.jsm:162:20\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:45:25\n"}}
+1660820731187	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820731189	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820731191	Marionette	TRACE	[37] MarionetteCommands actor created for window id 6442450945
+1660820731195	Marionette	DEBUG	0 <- [1,3,{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document ... mmandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"},null]
+1660820731195	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document.querySelectorAll: '<css locator>' is not a valid selector","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:348:5\nfind_@chrome://remote/content/marionette/element.js:320:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:274:24\nevalFn@chrome://remote/content/marionette/sync.js:136:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:156:5\nPollPromise@chrome://remote/content/marionette/sync.js:127:10\nelement.find/<@chrome://remote/content/marionette/element.js:272:24\nelement.find@chrome://remote/content/marionette/element.js:271:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"}}
+1660820731700	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820731700	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820731701	Marionette	DEBUG	0 <- [1,4,{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document ... mmandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"},null]
+1660820731701	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document.querySelectorAll: '<css locator>' is not a valid selector","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:348:5\nfind_@chrome://remote/content/marionette/element.js:320:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:274:24\nevalFn@chrome://remote/content/marionette/sync.js:136:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:156:5\nPollPromise@chrome://remote/content/marionette/sync.js:127:10\nelement.find/<@chrome://remote/content/marionette/element.js:272:24\nelement.find@chrome://remote/content/marionette/element.js:271:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"}}
+1660820732206	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820732206	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820732207	Marionette	DEBUG	0 <- [1,5,{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document ... mmandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"},null]
+1660820732208	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document.querySelectorAll: '<css locator>' is not a valid selector","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:348:5\nfind_@chrome://remote/content/marionette/element.js:320:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:274:24\nevalFn@chrome://remote/content/marionette/sync.js:136:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:156:5\nPollPromise@chrome://remote/content/marionette/sync.js:127:10\nelement.find/<@chrome://remote/content/marionette/element.js:272:24\nelement.find@chrome://remote/content/marionette/element.js:271:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"}}
+1660820732711	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820732712	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820732713	Marionette	DEBUG	0 <- [1,6,{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document ... mmandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"},null]
+1660820732713	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document.querySelectorAll: '<css locator>' is not a valid selector","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:348:5\nfind_@chrome://remote/content/marionette/element.js:320:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:274:24\nevalFn@chrome://remote/content/marionette/sync.js:136:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:156:5\nPollPromise@chrome://remote/content/marionette/sync.js:127:10\nelement.find/<@chrome://remote/content/marionette/element.js:272:24\nelement.find@chrome://remote/content/marionette/element.js:271:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"}}
+1660820733218	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820733218	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820733219	Marionette	DEBUG	0 <- [1,7,{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document ... mmandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"},null]
+1660820733219	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document.querySelectorAll: '<css locator>' is not a valid selector","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:348:5\nfind_@chrome://remote/content/marionette/element.js:320:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:274:24\nevalFn@chrome://remote/content/marionette/sync.js:136:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:156:5\nPollPromise@chrome://remote/content/marionette/sync.js:127:10\nelement.find/<@chrome://remote/content/marionette/element.js:272:24\nelement.find@chrome://remote/content/marionette/element.js:271:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"}}
+1660820733725	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820733726	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820733727	Marionette	DEBUG	0 <- [1,8,{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document ... mmandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"},null]
+1660820733728	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"<css locator>\" is invalid: SyntaxError: Document.querySelectorAll: '<css locator>' is not a valid selector","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:348:5\nfind_@chrome://remote/content/marionette/element.js:320:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:274:24\nevalFn@chrome://remote/content/marionette/sync.js:136:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:156:5\nPollPromise@chrome://remote/content/marionette/sync.js:127:10\nelement.find/<@chrome://remote/content/marionette/element.js:272:24\nelement.find@chrome://remote/content/marionette/element.js:271:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:265:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:104:31\n"}}
+1660820734233	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820734286	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820734286	Marionette	DEBUG	0 <- [1,9,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/c ... ote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"},null]
+1660820734287	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nNoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.jsm:442:5\nassert.that/<@chrome://remote/content/shared/webdriver/Assert.jsm:493:13\nassert.open@chrome://remote/content/shared/webdriver/Assert.jsm:155:4\nGeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.js:1531:15\ndespatch@chrome://remote/content/marionette/server.js:304:40\nexecute@chrome://remote/content/marionette/server.js:277:16\nonPacket/<@chrome://remote/content/marionette/server.js:250:20\nonPacket@chrome://remote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"}}
+1660820734796	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820734796	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820734797	Marionette	DEBUG	0 <- [1,10,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/ ... ote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"},null]
+1660820734797	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nNoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.jsm:442:5\nassert.that/<@chrome://remote/content/shared/webdriver/Assert.jsm:493:13\nassert.open@chrome://remote/content/shared/webdriver/Assert.jsm:155:4\nGeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.js:1531:15\ndespatch@chrome://remote/content/marionette/server.js:304:40\nexecute@chrome://remote/content/marionette/server.js:277:16\nonPacket/<@chrome://remote/content/marionette/server.js:250:20\nonPacket@chrome://remote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"}}
+1660820735302	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820735303	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820735303	Marionette	DEBUG	0 <- [1,11,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/ ... ote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"},null]
+1660820735304	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nNoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.jsm:442:5\nassert.that/<@chrome://remote/content/shared/webdriver/Assert.jsm:493:13\nassert.open@chrome://remote/content/shared/webdriver/Assert.jsm:155:4\nGeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.js:1531:15\ndespatch@chrome://remote/content/marionette/server.js:304:40\nexecute@chrome://remote/content/marionette/server.js:277:16\nonPacket/<@chrome://remote/content/marionette/server.js:250:20\nonPacket@chrome://remote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"}}
+1660820735809	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820735809	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820735810	Marionette	DEBUG	0 <- [1,12,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/ ... ote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"},null]
+1660820735810	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nNoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.jsm:442:5\nassert.that/<@chrome://remote/content/shared/webdriver/Assert.jsm:493:13\nassert.open@chrome://remote/content/shared/webdriver/Assert.jsm:155:4\nGeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.js:1531:15\ndespatch@chrome://remote/content/marionette/server.js:304:40\nexecute@chrome://remote/content/marionette/server.js:277:16\nonPacket/<@chrome://remote/content/marionette/server.js:250:20\nonPacket@chrome://remote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"}}
+1660820736317	webdriver::server	DEBUG	-> POST /session/e33b890f-1e98-44f2-a078-ddd19f9af058/elements {"using":"css selector","value":"<css locator>"}
+1660820736317	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElements",{"using":"css selector","value":"<css locator>"}]
+1660820736318	Marionette	DEBUG	0 <- [1,13,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/ ... ote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"},null]
+1660820736318	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:188:5\nNoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.jsm:442:5\nassert.that/<@chrome://remote/content/shared/webdriver/Assert.jsm:493:13\nassert.open@chrome://remote/content/shared/webdriver/Assert.jsm:155:4\nGeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.js:1531:15\ndespatch@chrome://remote/content/marionette/server.js:304:40\nexecute@chrome://remote/content/marionette/server.js:277:16\nonPacket/<@chrome://remote/content/marionette/server.js:250:20\nonPacket@chrome://remote/content/marionette/server.js:251:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:502:20\n"}}
+1660820736333	webdriver::server	DEBUG	-> DELETE /session/e33b890f-1e98-44f2-a078-ddd19f9af058 
+1660820736334	Marionette	DEBUG	0 -> [0,14,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1660820736334	Marionette	INFO	Stopped listening on port 61271
+1660820736352	Marionette	TRACE	Received observer notification quit-application
+1660820736352	Marionette	TRACE	Received observer notification quit-application
+1660820736352	Marionette	DEBUG	Marionette stopped listening
+1660820736353	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1660820736353	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1660820736353	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1660820736353	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.search.update
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1660820736354	RemoteAgent	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1660820736355	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1660820736355	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1660820736355	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1660820736356	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1660820736356	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1660820736356	RemoteAgent	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1660820736356	RemoteAgent	DEBUG	Resetting recommended pref dom.max_script_run_time
+1660820736356	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1660820736356	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1660820736357	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1660820736358	RemoteAgent	DEBUG	Resetting recommended pref signon.rememberSignons
+1660820736358	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1660820736360	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1660820736362	Marionette	DEBUG	0 <- [1,14,null,{"cause":"shutdown","forced":false}]
+1660820736370	webdriver::server	DEBUG	Teardown session
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660820736375	Marionette	DEBUG	Closed connection 0
+1660820736888	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1660820736932	webdriver::server	DEBUG	<- 200 OK {"value":null}

@@ -1,0 +1,160 @@
+1661339249986	geckodriver	INFO	Listening on 127.0.0.1:4444
+1661339249998	webdriver::server	DEBUG	-> GET /status 
+1661339249999	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1661339250009	webdriver::server	DEBUG	-> POST /session {"desiredCapabilities":{"browserName":"firefox","firefoxOptions":{"args":["start-fullscreen"]},"name":"Start/ Navigations"},"capabilities":{"alwaysMatch":{"browserName":"firefox"}}}
+1661339250021	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilewxTu8u"
+1661339250023	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:65044
+1661339250023	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250128	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250231	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250334	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250438	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250541	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250641	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250741	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250842	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1661339250851	Marionette	INFO	Marionette enabled
+1661339250852	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1661339250852	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1661339250852	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1661339250853	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1661339250854	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1661339250897	Marionette	TRACE	Received observer notification final-ui-startup
+1661339250899	Marionette	INFO	Listening on port 65044
+1661339250899	Marionette	DEBUG	Marionette is listening
+2022-08-24 16:07:30.898 plugin-container[43603:1382811] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-24 16:07:30.901 plugin-container[43603:1382811] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-24 16:07:31.038 plugin-container[43603:1382811] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-24 16:07:31.038 plugin-container[43603:1382811] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-24 16:07:31.039 plugin-container[43603:1382813] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-24 16:07:31.039 plugin-container[43603:1382813] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661339251096	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:65058
+1661339251101	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:65044.
+1661339251123	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"browserName":"firefox"}]
+1661339251126	Marionette	DEBUG	Waiting for initial application window
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilewxTu8u/search.json.mozlz4", (void 0)))
+1661339252539	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1661339252542	RemoteAgent	TRACE	[22] Document already finished loading: about:blank
+1661339252548	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e1b2fcca-c2ff-418c-9763-e2a3c7033a8b","capabilities":{"browserName":"firefox","browserVersion":"103.0 ... ownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1661339252550	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"e1b2fcca-c2ff-418c-9763-e2a3c7033a8b","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"103.0.2","moz:accessibilityChecks":false,"moz:buildID":"20220808125904","moz:geckodriverVersion":"0.30.0","moz:headless":false,"moz:platformVersion":"21.5.0","moz:processID":43599,"moz:profile":"/var/folders/yn/db4xnl214h557b7wj6sr87kw0000gp/T/rust_mozprofilewxTu8u","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1661339252578	webdriver::server	DEBUG	-> POST /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b/window/maximize {"windowHandle":"current"}
+1661339252581	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+1661339253029	Marionette	DEBUG	0 <- [1,2,null,{"x":0,"y":25,"width":1440,"height":819}]
+1661339253030	webdriver::server	DEBUG	<- 200 OK {"value":{"x":0,"y":25,"width":1440,"height":819}}
+1661339253035	webdriver::server	DEBUG	-> POST /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b/url {"url":"https://ultimateqa.com"}
+1661339253036	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://ultimateqa.com"}]
+1661339253040	Marionette	TRACE	[22] Received event beforeunload for about:blank
+1661339254855	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 37
+1661339254862	Marionette	TRACE	[37] Received event beforeunload for about:blank
+1661339254865	Marionette	TRACE	[37] Received event pagehide for about:blank
+1661339255017	Marionette	TRACE	[37] Received event DOMContentLoaded for https://ultimateqa.com/
+1661339255239	Marionette	TRACE	[37] Received event pageshow for https://ultimateqa.com/
+1661339255239	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1661339255246	webdriver::server	DEBUG	<- 200 OK {"value":null}
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/assets/subscribers.js?ver=1658406127, line 1: TypeError: e is undefined
+1661339257250	webdriver::server	DEBUG	-> POST /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b/url {"url":"https://ultimateqa.com/filling-out-forms"}
+1661339257251	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://ultimateqa.com/filling-out-forms"}]
+1661339257252	Marionette	TRACE	[37] Received event beforeunload for https://ultimateqa.com/
+1661339257714	Marionette	TRACE	[37] Received event pagehide for https://ultimateqa.com/
+1661339257750	Marionette	TRACE	[37] Received event DOMContentLoaded for https://ultimateqa.com/filling-out-forms
+1661339257760	Marionette	TRACE	[37] Received event pageshow for https://ultimateqa.com/filling-out-forms
+1661339257760	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1661339257764	webdriver::server	DEBUG	<- 200 OK {"value":null}
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/assets/subscribers.js?ver=1658406127, line 1: TypeError: e is undefined
+1661339259772	webdriver::server	DEBUG	-> POST /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b/back {}
+1661339259772	Marionette	DEBUG	0 -> [0,5,"WebDriver:Back",{}]
+1661339259777	Marionette	TRACE	[37] Received event beforeunload for https://ultimateqa.com/filling-out-forms
+1661339259785	Marionette	TRACE	[37] Received event pagehide for https://ultimateqa.com/filling-out-forms
+1661339259828	Marionette	TRACE	[37] Received event DOMContentLoaded for https://ultimateqa.com/
+1661339259834	Marionette	TRACE	[37] Received event pageshow for https://ultimateqa.com/
+1661339259835	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1661339259840	webdriver::server	DEBUG	<- 200 OK {"value":null}
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/assets/subscribers.js?ver=1658406127, line 1: TypeError: e is undefined
+1661339261847	webdriver::server	DEBUG	-> POST /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b/forward {}
+1661339261847	Marionette	DEBUG	0 -> [0,6,"WebDriver:Forward",{}]
+1661339261850	Marionette	TRACE	[37] Received event beforeunload for https://ultimateqa.com/
+1661339261858	Marionette	TRACE	[37] Received event pagehide for https://ultimateqa.com/
+1661339261886	Marionette	TRACE	[37] Received event DOMContentLoaded for https://ultimateqa.com/filling-out-forms
+1661339261895	Marionette	TRACE	[37] Received event pageshow for https://ultimateqa.com/filling-out-forms
+1661339261895	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1661339261901	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1661339261908	webdriver::server	DEBUG	-> POST /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b/url {"url":"https://ultimateqa.com#randonUrlParam"}
+1661339261931	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"https://ultimateqa.com#randonUrlParam"}]
+1661339261942	Marionette	TRACE	[37] Received event beforeunload for https://ultimateqa.com/filling-out-forms
+1661339261951	Marionette	TRACE	[37] Received event pagehide for https://ultimateqa.com/filling-out-forms
+1661339261990	Marionette	TRACE	[37] Received event DOMContentLoaded for https://ultimateqa.com/#randonUrlParam
+1661339262003	Marionette	TRACE	[37] Received event pageshow for https://ultimateqa.com/#randonUrlParam
+1661339262003	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1661339262011	webdriver::server	DEBUG	<- 200 OK {"value":null}
+JavaScript error: https://ultimateqa.com/wp-content/cache/min/1/assets/subscribers.js?ver=1658406127, line 1: TypeError: e is undefined
+1661339264026	webdriver::server	DEBUG	-> DELETE /session/e1b2fcca-c2ff-418c-9763-e2a3c7033a8b 
+1661339264026	Marionette	DEBUG	0 -> [0,8,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1661339264027	Marionette	INFO	Stopped listening on port 65044
+1661339264064	Marionette	TRACE	Received observer notification quit-application
+1661339264065	Marionette	TRACE	Received observer notification quit-application
+1661339264065	Marionette	DEBUG	Marionette stopped listening
+1661339264065	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1661339264065	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1661339264065	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1661339264065	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1661339264066	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1661339264066	RemoteAgent	DEBUG	Resetting recommended pref browser.search.update
+1661339264066	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1661339264067	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1661339264068	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1661339264069	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1661339264069	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1661339264069	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1661339264069	RemoteAgent	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1661339264069	RemoteAgent	DEBUG	Resetting recommended pref dom.max_script_run_time
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1661339264070	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1661339264071	RemoteAgent	DEBUG	Resetting recommended pref signon.rememberSignons
+1661339264071	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1661339264072	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1661339264072	Marionette	DEBUG	0 <- [1,8,null,{"cause":"shutdown","forced":false}]
+1661339264100	webdriver::server	DEBUG	Teardown session
+1661339264133	Marionette	DEBUG	Closed connection 0
+1661339264616	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1661339264666	webdriver::server	DEBUG	<- 200 OK {"value":null}
