@@ -20,6 +20,10 @@ module.exports = {
     client.expect
       .element("button[name='et_builder_submit_button']:nth-child(1)")
       .text.equal("Submit");
+    client.expect
+      .element("#et_pb_contact_message_0")
+      .to.have.attribute("placeholder")
+      .which.contains("Message");
   },
   "mouse click": function (client) {
     client
@@ -64,5 +68,13 @@ module.exports = {
   },
   "Verify url": (client) => {
     client.verify.urlEquals("https://ultimateqa.com/filling-out-forms/");
+    client.expect.url().to.equal("https://ultimateqa.com/filling-out-forms/");
+    client.expect.title().to.contains("Filling Out Forms");
+  },
+  "expect assertions": (client) => {
+    client.setValue("input[data-original_id='name']:nth-child(2)", "Hello");
+    client.expect
+      .element("input[data-original_id='name']:nth-child(2)")
+      .to.have.value.which.equal("Hello");
   },
 };
