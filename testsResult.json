@@ -1,0 +1,775 @@
+{
+	"passed": 10,
+	"failed": 0,
+	"errors": 0,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 10,
+	"errmessages": [],
+	"modules": {
+		"specs/start/userActions": {
+			"reportPrefix": "CHROME_104.0.5112.101_Mac_OS_X_",
+			"assertionsCount": 10,
+			"lastError": null,
+			"skipped": [],
+			"time": "31.82",
+			"completed": {
+				"User Actions & Prompts": {
+					"time": "14.04",
+					"assertions": [
+						{
+							"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 3,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						}
+					},
+					"timeMs": 14039
+				},
+				"mouse click": {
+					"time": "4.100",
+					"assertions": [],
+					"passed": 0,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 0,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						},
+						"mouse click": {
+							"time": "4.100",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4100
+						}
+					},
+					"timeMs": 4100
+				},
+				"window actions": {
+					"time": "3.280",
+					"assertions": [],
+					"passed": 0,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 0,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						},
+						"mouse click": {
+							"time": "4.100",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4100
+						},
+						"window actions": {
+							"time": "3.280",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3280
+						}
+					},
+					"timeMs": 3280
+				},
+				"should intract with alert": {
+					"time": "8.238",
+					"assertions": [
+						{
+							"message": "Passed [equal]: I am an alert box! == I am an alert box!",
+							"stackTrace": "",
+							"fullMsg": "Passed [equal]: I am an alert box! == I am an alert box!",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						},
+						"mouse click": {
+							"time": "4.100",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4100
+						},
+						"window actions": {
+							"time": "3.280",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3280
+						},
+						"should intract with alert": {
+							"time": "8.238",
+							"assertions": [
+								{
+									"message": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"stackTrace": "",
+									"fullMsg": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 8238
+						}
+					},
+					"timeMs": 8238
+				},
+				"Assert vs verify": {
+					"time": "2.059",
+					"assertions": [
+						{
+							"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						},
+						"mouse click": {
+							"time": "4.100",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4100
+						},
+						"window actions": {
+							"time": "3.280",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3280
+						},
+						"should intract with alert": {
+							"time": "8.238",
+							"assertions": [
+								{
+									"message": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"stackTrace": "",
+									"fullMsg": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 8238
+						},
+						"Assert vs verify": {
+							"time": "2.059",
+							"assertions": [
+								{
+									"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2059
+						}
+					},
+					"timeMs": 2059
+				},
+				"Verify url": {
+					"time": "0.01600",
+					"assertions": [
+						{
+							"message": "Testing if the URL is \u001b[0;33m'https://ultimateqa.com/filling-out-forms/'\u001b[0m \u001b[0;90m(5ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if the URL is \u001b[0;33m'https://ultimateqa.com/filling-out-forms/'\u001b[0m \u001b[0;90m(5ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Expected current url to equal: \u001b[0;33m\"https://ultimateqa.com/filling-out-forms/\"\u001b[0m\u001b[0;90m (4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected current url to equal: \u001b[0;33m\"https://ultimateqa.com/filling-out-forms/\"\u001b[0m\u001b[0;90m (4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Expected page title to contain: \u001b[0;33m\"Filling Out Forms\"\u001b[0m\u001b[0;90m (6ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected page title to contain: \u001b[0;33m\"Filling Out Forms\"\u001b[0m\u001b[0;90m (6ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 3,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						},
+						"mouse click": {
+							"time": "4.100",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4100
+						},
+						"window actions": {
+							"time": "3.280",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3280
+						},
+						"should intract with alert": {
+							"time": "8.238",
+							"assertions": [
+								{
+									"message": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"stackTrace": "",
+									"fullMsg": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 8238
+						},
+						"Assert vs verify": {
+							"time": "2.059",
+							"assertions": [
+								{
+									"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2059
+						},
+						"Verify url": {
+							"time": "0.01600",
+							"assertions": [
+								{
+									"message": "Testing if the URL is \u001b[0;33m'https://ultimateqa.com/filling-out-forms/'\u001b[0m \u001b[0;90m(5ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the URL is \u001b[0;33m'https://ultimateqa.com/filling-out-forms/'\u001b[0m \u001b[0;90m(5ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected current url to equal: \u001b[0;33m\"https://ultimateqa.com/filling-out-forms/\"\u001b[0m\u001b[0;90m (4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected current url to equal: \u001b[0;33m\"https://ultimateqa.com/filling-out-forms/\"\u001b[0m\u001b[0;90m (4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected page title to contain: \u001b[0;33m\"Filling Out Forms\"\u001b[0m\u001b[0;90m (6ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected page title to contain: \u001b[0;33m\"Filling Out Forms\"\u001b[0m\u001b[0;90m (6ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 16
+						}
+					},
+					"timeMs": 16
+				},
+				"expect assertions": {
+					"time": "0.09200",
+					"assertions": [
+						{
+							"message": "Expected element <input[data-original_id='name']:nth-child(2)> to have value which equals: \u001b[0;33m\"Hello\"\u001b[0m\u001b[0;90m (25ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected element <input[data-original_id='name']:nth-child(2)> to have value which equals: \u001b[0;33m\"Hello\"\u001b[0m\u001b[0;90m (25ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"User Actions & Prompts": {
+							"time": "14.04",
+							"assertions": [
+								{
+									"message": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if value of element \u001b[0;33m<#et_pb_contact_message_0>\u001b[0m contains \u001b[0;33m'Testing sequence'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <button[name='et_builder_submit_button']:nth-child(1)> text to equal: \u001b[0;33m\"Submit\"\u001b[0m\u001b[0;90m (22ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_message_0> to have attribute \"placeholder\" which contains: \u001b[0;33m\"Message\"\u001b[0m\u001b[0;90m (14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 14039
+						},
+						"mouse click": {
+							"time": "4.100",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4100
+						},
+						"window actions": {
+							"time": "3.280",
+							"assertions": [],
+							"tests": 0,
+							"passed": 0,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3280
+						},
+						"should intract with alert": {
+							"time": "8.238",
+							"assertions": [
+								{
+									"message": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"stackTrace": "",
+									"fullMsg": "Passed [equal]: I am an alert box! == I am an alert box!",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 8238
+						},
+						"Assert vs verify": {
+							"time": "2.059",
+							"assertions": [
+								{
+									"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if element \u001b[0;33m<button[name='et_builder_submit_button']:nth-child(1)>\u001b[0m is visible \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2059
+						},
+						"Verify url": {
+							"time": "0.01600",
+							"assertions": [
+								{
+									"message": "Testing if the URL is \u001b[0;33m'https://ultimateqa.com/filling-out-forms/'\u001b[0m \u001b[0;90m(5ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the URL is \u001b[0;33m'https://ultimateqa.com/filling-out-forms/'\u001b[0m \u001b[0;90m(5ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected current url to equal: \u001b[0;33m\"https://ultimateqa.com/filling-out-forms/\"\u001b[0m\u001b[0;90m (4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected current url to equal: \u001b[0;33m\"https://ultimateqa.com/filling-out-forms/\"\u001b[0m\u001b[0;90m (4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected page title to contain: \u001b[0;33m\"Filling Out Forms\"\u001b[0m\u001b[0;90m (6ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected page title to contain: \u001b[0;33m\"Filling Out Forms\"\u001b[0m\u001b[0;90m (6ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 16
+						},
+						"expect assertions": {
+							"time": "0.09200",
+							"assertions": [
+								{
+									"message": "Expected element <input[data-original_id='name']:nth-child(2)> to have value which equals: \u001b[0;33m\"Hello\"\u001b[0m\u001b[0;90m (25ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <input[data-original_id='name']:nth-child(2)> to have value which equals: \u001b[0;33m\"Hello\"\u001b[0m\u001b[0;90m (25ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 92
+						}
+					},
+					"timeMs": 92
+				}
+			},
+			"errmessages": [],
+			"testsCount": 7,
+			"skippedCount": 0,
+			"failedCount": 0,
+			"errorsCount": 0,
+			"passedCount": 10,
+			"group": "start",
+			"modulePath": "/Users/hafizzeeshan/Documents/JavaScriptTraining/NightwatchJs/tests/specs/start/userActions.js",
+			"tests": 7,
+			"failures": 0,
+			"errors": 0
+		}
+	}
+}
